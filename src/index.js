@@ -16,7 +16,9 @@ const db = require("./config/bd");
 
 //Models
 // require("./models/vehicles");
-require("./models/phrases");
+require("./models/getPhrasal");
+require("./models/regularVerbs");
+require("./models/irregularVerbs");
 
 // Create DB
 db.sync()
